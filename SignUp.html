@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="a">
+    <div class="main-box">
+        <div class="left-box">
+            <p class="left-box-para1">Register Now</p>
+            <p class="left-box-para2">And get up to 30% off on paid internships</p>
+        </div>
+        <div class="right-box">
+            <p class="right-box-para1">Create an Account</p>
+            <form id="RegistrationForm" class="right-box-form">
+                <input class="right-box-input" type="text" id="name" placeholder=" Enter your Name" required><br><br>
+                <input class="right-box-input" type="email" id="email" placeholder="Enter your Email" required><br><br>
+                <input class="right-box-input" type="password" id="password" placeholder="Enter your Password" required><br><br>
+                <button class="right-box-button" type="submit">Register</button>
+            </form> 
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+    <script src="SignUp.js"></script>
+</body>
+</html>
